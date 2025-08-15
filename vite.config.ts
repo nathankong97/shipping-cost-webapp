@@ -3,6 +3,7 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
+  base: '/shipping-cost-webapp/',
   server: {
     proxy: {
       // Frontend will call: /proxy/tenso/api/en/estimate
